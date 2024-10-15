@@ -97,7 +97,7 @@ def main():
     gdf = gpd.read_file(
         "/Users/milindsoni/Documents/projects/rice/bamboo/mygeojsonag.geojson"
     )
-    gdf = gdf.iloc[:2]
+
     print(f"Processing {len(gdf)} polygons...")
 
     all_polygon_data = []
